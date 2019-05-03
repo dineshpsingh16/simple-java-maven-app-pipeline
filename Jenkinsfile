@@ -19,7 +19,6 @@ pipeline {
     }  
     stage('Deploy') {
       steps {
-        sh 'whoami'
         sh 'pwd'
         sh 'ls -l ./jenkins/scripts/deliver.sh'
       }
