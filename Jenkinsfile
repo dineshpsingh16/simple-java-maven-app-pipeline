@@ -19,7 +19,7 @@ pipeline {
     }  
     stage('Deploy') {
       steps {
-        sh 'docker ps -a'
+        sh 'whoami && pwd'
       }
     }    
   }
